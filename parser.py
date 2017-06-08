@@ -288,7 +288,7 @@ class Parser:
 
         if self.currtok.type == TokNames.LPAREN:
             self.targetprogram.append("(")
-            
+
             self.nextToken()
             err = self.args()
             if err: return err

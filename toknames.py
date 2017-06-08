@@ -2,29 +2,31 @@
 # This class is not used by lexer but by the Parser (for better checking)
 # it should match with the token names as given in the lexer module
 class TokNames:
-    NUMBER = 'NUMBER'
-    
-    ID = "ID"
+    NUMBER              = 'NUMBER'
 
-    PLUS = "PLUS"
-    MINUS = "MINUS"
-    TIMES = 'TIMES'
-    DIVIDE = 'DIVIDE'
-    REMAINDER = 'REMAINDER'
-    POWER = 'POWER'
+    ID                  = "ID"
 
-    LPAREN = 'LPAREN'
-    RPAREN = 'RPAREN'
-    COMMA = 'COMMA'
+    PLUS                = "PLUS"
+    MINUS               = "MINUS"
+    TIMES               = "TIMES"
+    DIVIDE              = "DIVIDE"
+    REMAINDER           = "REMAINDER"
+    POWER               = "POWER"
 
-    ASSIGN = 'ASSIGN'
-    PLUS_ASSIGN = 'PLUS_ASSIGN'
-    MINUS_ASSIGN = 'MINUS_ASSIGN'
-    TIMES_ASSIGN = 'TIMES_ASSIGN'
-    DIVIDE_ASSIGN = 'DIVIDE_ASSIGN'
-    REMAINDER_ASSIGN = 'REMAINDER_ASSIGN'
-    POWER_ASSIGN = 'POWER_ASSIGN'
+    LPAREN              = "LPAREN"
+    RPAREN              = "RPAREN"
+    COMMA               = "COMMA"
 
-    EOS = "END_OF_STREAM"
+    ASSIGN              = "ASSIGN"
+    PLUS_ASSIGN         = "PLUS_ASSIGN"
+    MINUS_ASSIGN        = "MINUS_ASSIGN"
+    TIMES_ASSIGN        = "TIMES_ASSIGN"
+    DIVIDE_ASSIGN       = "DIVIDE_ASSIGN"
+    REMAINDER_ASSIGN    = "REMAINDER_ASSIGN"
+    POWER_ASSIGN        = "POWER_ASSIGN"
+
+    EOS                 = "END_OF_STREAM"
+
+    STRING              = "STRING"
 
 

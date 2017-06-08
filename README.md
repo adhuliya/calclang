@@ -6,18 +6,19 @@ inbuilt functions cannot be used for variable names.
 
 Some examples of the syntax could be:
 
->>> x = sin(3.1415)
->>> 12 + 3**3
-39
->>> 12 + max(3,2,4)
-16
->>> 12 % 5
-2
->>> 4**.5
-2
->>> max(sin(3), sin(4), sin(5))
-0.1411200080598672
->>> 
+    $ ./calculator.py
+    >>> x = sin(3.1415)
+    >>> 12 + 3**3
+    39
+    >>> 12 + max(3,2,4)
+    16
+    >>> 12 % 5
+    2
+    >>> 4**.5
+    2
+    >>> max(sin(3), sin(4), sin(5))
+    0.1411200080598672
+    >>> 
 
 Operators supported:
 
